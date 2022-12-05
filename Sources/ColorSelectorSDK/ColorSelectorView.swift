@@ -11,7 +11,7 @@ import SwiftUI
 public struct ColorSelectorView: View {
     @Binding var selectedColor: Color
     
-    let colors: [Color] = [.red, .purple, .green, .yellow, .blue]
+    let colors: [Color] = [.red, .purple, .green, .yellow, .blue, .orange]
     
     public var body: some View {
         HStack {
